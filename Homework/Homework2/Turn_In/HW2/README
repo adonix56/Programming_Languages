@@ -1,0 +1,22 @@
+*** fill in the following;
+*** repeat it for each group member;
+*** list group members alphabetically by last name
+
+Name(last): Salanga
+Name(first): Justin
+Login_ID: 997762493
+
+*** Give the status of your work; here's a sample.
+
+Status:
+
+part1: Works on all tests.
+	Question 1: The purpose of putback is to help determine the end of the input.  For example, if we're checking to see if the next token is either '>' or '>=', it would first see the '>,' and check to see if the next character is '=.'  If it is not, we need to 'putback' the character we DID get so it can be scanned for the next getchar() call.
+	Question 2: The values of putback and c just before 'hello' is returned from 'hello*45' is: putback="true" c="*"
+	Question 3: In the case '/', it enters in the proc ccase1or2, where it will check to see if the symbol is trying to use a divide (/) or a not equals (/=).  It increments c by another character, and if it sees the '=' it will know that the token is not equals (/=), but if it doesn't see an '=', then it puts the retrieved character back, and the token is divide (/).
+part2: Works on all tests.
+part3: Works on all tests.
+part4: Works on all tests.
+part5: Works on only the first test case.
+
+Overall: Any comment/discussion related to this HW.
